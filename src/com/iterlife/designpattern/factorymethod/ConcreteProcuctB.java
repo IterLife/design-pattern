@@ -1,8 +1,8 @@
 package com.iterlife.designpattern.factorymethod;
 
+
 /**
  * @Description:com.iterlife.designpattern.factorymethod.ConcreteProcuctB.java
- * 
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 ÏÂÎç2:54:56
@@ -11,13 +11,13 @@ package com.iterlife.designpattern.factorymethod;
  */
 public class ConcreteProcuctB implements Product {
 
-    public void doSomething1() {
-	System.out.println("ConcreteProcuctB.doSomething1()");
-    }
+	public void doSomething1() {
+		System.out.println("ConcreteProcuctB.doSomething1()");
+	}
 
-    public void doSomething2() {
-	System.out.println("ConcreteProcuctB.doSomething2()");
+	public void doSomething2() {
+		System.out.println("ConcreteProcuctB.doSomething2()");
 
-    }
+	}
 
 }

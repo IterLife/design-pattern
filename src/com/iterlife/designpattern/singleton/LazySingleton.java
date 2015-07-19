@@ -1,9 +1,9 @@
 package com.iterlife.designpattern.singleton;
 
+
 /**
  * @Description:com.iterlife.designpattern.singleton.LazySingleton.java
  * 懒汉单例模式
- * 
  * 单例模式:确保某个类只有一个实例，而且自行实例化并向整个系统提供这个实例
  * 优点:长驻内存，减少系统性能开销
  * 确定:没有接口，扩展困难；与单一职责原则冲突
@@ -15,15 +15,15 @@ package com.iterlife.designpattern.singleton;
  */
 public class LazySingleton {
 
-	private static LazySingleton singleton=null;
-	
-	private LazySingleton(){
-		//屏蔽public Singleton()构造方法
-	    //可以将当前Singleton类设置为abstract,则其不可被实例化
+	private static LazySingleton	singleton	= null;
+
+	private LazySingleton() {
+		// 屏蔽public Singleton()构造方法
+		// 可以将当前Singleton类设置为abstract,则其不可被实例化
 	}
-	
+
 	/**
-	 *并发情况下存在问题,通过对方法或者程序块添加synchronized关键字解决 
+	 * 并发情况下存在问题,通过对方法或者程序块添加synchronized关键字解决
 	 **/
 	public static LazySingleton getInstance() {
 		if (singleton == null) {
@@ -31,8 +31,8 @@ public class LazySingleton {
 		}
 		return singleton;
 	}
-	
-	public static void doSomething(){
-		
+
+	public static void doSomething() {
+
 	}
 }

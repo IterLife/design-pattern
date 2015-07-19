@@ -1,8 +1,8 @@
 package com.iterlife.designpattern.factorymethod;
 
+
 /**
  * @Description:com.iterlife.designpattern.factorymethod.Product.java
- * 
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 обнГ2:51:35
@@ -11,7 +11,7 @@ package com.iterlife.designpattern.factorymethod;
  */
 public interface Product {
 
-    public void doSomething1();
+	public void doSomething1();
 
-    public void doSomething2();
+	public void doSomething2();
 }

@@ -1,8 +1,8 @@
 package com.iterlife.designpattern.factorymethod;
 
+
 /**
  * @Description:com.iterlife.designpattern.factorymethod.ConcreteProcuctBFactory.java
- * 
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 ÏÂÎç3:20:55
@@ -11,13 +11,13 @@ package com.iterlife.designpattern.factorymethod;
  */
 public class ConcreteProcuctBFactory extends AbstarctProductFactory {
 
-    public <T extends Product> T createProduct(Class<T> clazz) {
-	return null;
-    }
+	public <T extends Product> T createProduct(Class<T> clazz) {
+		return null;
+	}
 
-    @SuppressWarnings("unchecked")
-    public <T extends Product> T createProduct() {
-	return (T) new ConcreteProcuctB();
-    }
+	@SuppressWarnings("unchecked")
+	public <T extends Product> T createProduct() {
+		return (T) new ConcreteProcuctB();
+	}
 
 }
