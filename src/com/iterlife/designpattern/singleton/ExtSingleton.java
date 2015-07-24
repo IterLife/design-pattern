@@ -1,6 +1,5 @@
 package com.iterlife.designpattern.singleton;
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
