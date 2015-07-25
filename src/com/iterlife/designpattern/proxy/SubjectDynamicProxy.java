@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationHandler;
 
 /**
  * @Description:com.iterlife.designpattern.proxy.SubjectDynamicProxy
- *
+ * 
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 обнГ4:19:12

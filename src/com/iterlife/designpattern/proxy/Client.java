@@ -1,7 +1,6 @@
 package com.iterlife.designpattern.proxy;
 
 
-import java.lang.reflect.InvocationHandler;
 
 /**
  * @Description:com.iterlife.designpattern.proxy.Client
