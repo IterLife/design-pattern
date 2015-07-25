@@ -2,7 +2,7 @@ package com.iterlife.designpattern.factorymethod;
 
 
 /**
- * @Description:com.iterlife.designpattern.factorymethod.ConcreteProcuctBFactory.java
+ * @Description:com.iterlife.designpattern.factorymethod.ConcreteProcuctBFactory
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 обнГ3:20:55

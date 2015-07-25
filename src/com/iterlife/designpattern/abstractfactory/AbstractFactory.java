@@ -2,7 +2,7 @@ package com.iterlife.designpattern.abstractfactory;
 
 
 /**
- * @Description:com.iterlife.designpattern.abstractfactory.AbstractFactory.java
+ * @Description:com.iterlife.designpattern.abstractfactory.AbstractFactory
  * 抽象工厂方法:为创建一组相关或相互依赖的对象提供一个接口，而且无需指定他们的具体类
  * 
  * 优点:封装性，不关心产品类的实现，只需要指定相应的工厂，便能创造出需要的对象

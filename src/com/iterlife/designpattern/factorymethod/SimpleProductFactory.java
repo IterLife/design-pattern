@@ -2,7 +2,7 @@ package com.iterlife.designpattern.factorymethod;
 
 
 /**
- * @Description:com.iterlife.designpattern.factorymethod.SimpleProductFactory.java
+ * @Description:com.iterlife.designpattern.factorymethod.SimpleProductFactory
  * 简单工厂模式 ,也叫静态工厂模式
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

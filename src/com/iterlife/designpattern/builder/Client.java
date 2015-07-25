@@ -2,7 +2,7 @@ package com.iterlife.designpattern.builder;
 
 
 /**
- * @Description:com.iterlife.designpattern.builder.Client.java
+ * @Description:com.iterlife.designpattern.builder.Client
  *
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

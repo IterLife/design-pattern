@@ -1,7 +1,7 @@
 package com.iterlife.designpattern.abstractfactory;
 
 /**
- * @Description:com.iterlife.designpattern.abstractfactory.Product1Factory.java
+ * @Description:com.iterlife.designpattern.abstractfactory.Product1Factory
  *
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

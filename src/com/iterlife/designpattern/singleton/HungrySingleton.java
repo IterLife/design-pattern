@@ -2,7 +2,7 @@ package com.iterlife.designpattern.singleton;
 
 
 /**
- * @Description:com.iterlife.designpattern.singleton.HungrySingleton.java
+ * @Description:com.iterlife.designpattern.singleton.HungrySingleton
  * ¶öººµ¥ÀýÄ£Ê½
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

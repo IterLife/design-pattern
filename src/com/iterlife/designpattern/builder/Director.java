@@ -2,7 +2,7 @@ package com.iterlife.designpattern.builder;
 
 
 /**
- * @Description:com.iterlife.designpattern.builder.Director.java
+ * @Description:com.iterlife.designpattern.builder.Director
  * 建造者模式:将一个复杂对象的构建和他的表示分离，使得同样的构建过程可以创建不同的表示
  * 优点:封装性，建造者独立，容易扩展，便于控制细节风险
  * @author:Lu Jie

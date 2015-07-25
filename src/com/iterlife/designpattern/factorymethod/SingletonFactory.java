@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import com.iterlife.designpattern.singleton.LazySingleton;
 
 /**
- * @Description:com.iterlife.designpattern.factorymethod.SingletonFactory.java
+ * @Description:com.iterlife.designpattern.factorymethod.SingletonFactory
  * 单例工厂模式
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

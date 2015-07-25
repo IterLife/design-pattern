@@ -2,7 +2,7 @@ package com.iterlife.designpattern.templatemethod;
 
 
 /**
- * @Description:com.iterlife.designpattern.templatemethod.Client.java
+ * @Description:com.iterlife.designpattern.templatemethod.Client
  * 父类如何调用子类的方法:
  * 1-把子类传递到父类的有参构造函数
  * 2-使用反射方式调用

@@ -2,7 +2,7 @@ package com.iterlife.designpattern.templatemethod;
 
 
 /**
- * @Description:com.iterlife.designpattern.templatemethod.ConcreteClass2.java
+ * @Description:com.iterlife.designpattern.templatemethod.ConcreteClass2
  *
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

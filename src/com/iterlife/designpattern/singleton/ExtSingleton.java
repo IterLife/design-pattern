@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @Description:com.iterlife.designpattern.singleton.ExtSingleton.java
+ * @Description:com.iterlife.designpattern.singleton.ExtSingleton
  * 有上限的扩展单例模式
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com

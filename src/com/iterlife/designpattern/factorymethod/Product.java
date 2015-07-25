@@ -2,7 +2,7 @@ package com.iterlife.designpattern.factorymethod;
 
 
 /**
- * @Description:com.iterlife.designpattern.factorymethod.Product.java
+ * @Description:com.iterlife.designpattern.factorymethod.Product
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 обнГ2:51:35

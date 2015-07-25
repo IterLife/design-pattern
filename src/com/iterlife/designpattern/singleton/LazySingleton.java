@@ -2,7 +2,7 @@ package com.iterlife.designpattern.singleton;
 
 
 /**
- * @Description:com.iterlife.designpattern.singleton.LazySingleton.java
+ * @Description:com.iterlife.designpattern.singleton.LazySingleton
  * 懒汉单例模式
  * 单例模式:确保某个类只有一个实例，而且自行实例化并向整个系统提供这个实例
  * 优点:长驻内存，减少系统性能开销
