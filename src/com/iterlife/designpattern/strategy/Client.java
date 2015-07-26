@@ -2,7 +2,7 @@ package com.iterlife.designpattern.strategy;
 
 /**
  * @Description:com.iterlife.designpattern.strategy.Client
- *
+ * 策略模式:
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 下午6:43:29
