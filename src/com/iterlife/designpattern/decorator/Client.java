@@ -1,5 +1,6 @@
 package com.iterlife.designpattern.decorator;
 
+
 /**
  * @Description:com.iterlife.designpattern.decorator.Client
  *
@@ -11,12 +12,12 @@ package com.iterlife.designpattern.decorator;
  */
 public class Client {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Component component = new ConcreteComponent();
+		Decorator decorator1 = new ConcreteDecoratorA(component);
+		Decorator decorator2 = new ConcreteDecoratorB(component);
+		decorator1.operate();
+		decorator2.operate();
 	}
 
 }
