@@ -3,6 +3,7 @@ package com.iterlife.designpattern.strategy;
 
 /**
  * @Description:com.iterlife.designpattern.strategy.Client
+ * 
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 ÏÂÎç6:43:29
