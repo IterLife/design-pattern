@@ -1,8 +1,8 @@
 package com.iterlife.designpattern.strategy;
 
+
 /**
  * @Description:com.iterlife.designpattern.strategy.Client
- * 策略模式:
  * @author:Lu Jie
  * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 下午6:43:29
@@ -15,8 +15,13 @@ public class Client {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Context[] context = { new Context(new ConcreteStrategy1()), new Context(new ConcreteStrategy2()), new Context(new ConcreteStrategy3()) };
+		for (int i = 0; i < 3; ++i) {
+			context[i].doAnything();
+		}
+
+		System.out.println("2+5=" + new ApplicationContext(Calculator.ADD).exec(2, 5));
+		System.out.println("5-2=" + new ApplicationContext(Calculator.SUB).exec(5, 2));
 
 	}
-
 }
