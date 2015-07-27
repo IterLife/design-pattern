@@ -21,7 +21,6 @@ public class ConcreteDecoratorB extends Decorator {
 	}
 
 	public void operate() {
-
 		this.method();
 		super.operate();
 	}
