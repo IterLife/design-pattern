@@ -1,5 +1,6 @@
 package com.iterlife.designpattern.adapter;
 
+
 /**
  * @Description:com.iterlife.designpattern.adapter.Client
  *
@@ -11,12 +12,10 @@ package com.iterlife.designpattern.adapter;
  */
 public class Client {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Target target = new ConcreteTarget();
+		target.request();
+		Target nTarget = new Adapter();
+		nTarget.request();
 	}
-
 }
