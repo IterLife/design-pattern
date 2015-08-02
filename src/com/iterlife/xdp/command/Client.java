@@ -1,5 +1,6 @@
 package com.iterlife.xdp.command;
 
+
 /**
  * @Description:com.iterlife.xdp.command.Client
  *
@@ -11,12 +12,17 @@ package com.iterlife.xdp.command;
  */
 public class Client {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Invoker invoker = new Invoker();// 定义接口人
+		Receiver receiverA = new ConcreteAReceiver();// 定义接收者A
+		Receiver receiverB = new ConcreteBReceiver();// 定义接收者B
+		invoker.setCommand(new ConcreteACommand(receiverA));
+		invoker.action();
+		invoker.setCommand(new ConcreteACommand(receiverB));
+		invoker.action();
+		invoker.setCommand(new ConcreteBCommand(receiverA));
+		invoker.action();
+		invoker.setCommand(new ConcreteBCommand(receiverB));
+		invoker.action();
 	}
-
 }

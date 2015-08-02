@@ -1,0 +1,23 @@
+package com.iterlife.xdp.command;
+
+
+/**
+ * @Description:com.iterlife.xdp.command.Invoker
+ *
+ * @author:Lu Jie
+ * @E-Mail:lujie0403@163.com
+ * @date:2015-8-2 ÏÂÎç3:51:45
+ * @version:1.0.0
+ * @copyright:https://github.com/LuJie0403
+ */
+public class Invoker {
+	private Command	command;
+
+	public void setCommand(Command command) {
+		this.command = command;
+	}
+
+	public void action() {
+		command.execute();// Ö´ĞĞÃüÁî
+	}
+}
