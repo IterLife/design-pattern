@@ -1,5 +1,8 @@
 package com.iterlife.xdp.respchain;
 
+
+import java.util.Random;
+
 /**
  * @Description:com.iterlife.xdp.respchain.Client
  *
@@ -15,8 +18,17 @@ public class Client {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Request request[] = new Request[] { new OneLevelRequest(), new TwoLevelRequest(), new ThreeLevelRequest(), new FourLevelRequest(),
+				new FiveLevelRequest() };
+		Handler dealHandler = new OneLevelHandler();// 受理处理请求的Handler
+		for (int i = 0; i < 100; ++i) {
+			Random random = new Random();
+			int requestIndex = random.nextInt(5);
+			System.out.println("第" + (i+1)+ "次发起请求，请求级别:" + request[requestIndex].getHandlerLevelEnum());
+			System.out.println("进入处理流程……");
+			Response response = dealHandler.handlerRequest(request[requestIndex]);
+			System.out.println("[最终处理结果]:" + response.getResponseDesc());
+			System.out.println("………………………………………………………………………………………………………………………………\n\n");
+		}
 	}
-
 }
