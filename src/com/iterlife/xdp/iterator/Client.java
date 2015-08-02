@@ -1,5 +1,6 @@
 package com.iterlife.xdp.iterator;
 
+
 /**
  * @Description:com.iterlife.xdp.iterator.Client
  *
@@ -11,12 +12,15 @@ package com.iterlife.xdp.iterator;
  */
 public class Client {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Aggregate myCollection = new ConcreteAggregate<String>();
+		myCollection.add("Lu Jie");
+		myCollection.add("Xu Na");
+		Iterator iterator = myCollection.iterator();
+		while (iterator.hasNext()) {
+			iterator.remove();
+		}
 	}
 
 }
