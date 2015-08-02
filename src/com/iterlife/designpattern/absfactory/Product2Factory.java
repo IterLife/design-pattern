@@ -1,7 +1,7 @@
 package com.iterlife.designpattern.absfactory;
 
 
-public class Product2Factory extends absfactory {
+public class Product2Factory extends AbstractFactory {
 
 	public AbstractProductA creatorProductA() {
 		return new ProductA2();

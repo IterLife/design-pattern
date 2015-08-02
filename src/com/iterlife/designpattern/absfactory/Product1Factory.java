@@ -9,7 +9,7 @@ package com.iterlife.designpattern.absfactory;
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
-public class Product1Factory extends absfactory {
+public class Product1Factory extends AbstractFactory {
 
 	public AbstractProductA creatorProductA() {
 		return new ProductA1();

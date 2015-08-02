@@ -13,8 +13,8 @@ package com.iterlife.designpattern.absfactory;
 public class Client {
 
 	public static void main(String[] args) {
-		absfactory product1Factory = new Product1Factory();
-		absfactory product2Factory = new Product2Factory();
+		AbstractFactory product1Factory = new Product1Factory();
+		AbstractFactory product2Factory = new Product2Factory();
 		product1Factory.creatorProductA().doSomething();
 		product1Factory.creatorProductB().doSomething();
 		product2Factory.creatorProductA().doSomething();
