@@ -1,0 +1,47 @@
+@startuml
+
+interface com.shuhe.deduct.demo.context.IDeductService {
+~ DeductResult doDeducting(DeductBill)
+~ DeductResult queryDeductResult(DeductBill)
+}
+
+class com.shuhe.deduct.demo.context.impl.DeductServiceImpl {
+- IDeductPerformer deductPerformer
+- IDeductPerformer getDeductPerformer(String)
++ DeductResult doDeducting(DeductBill)
++ DeductResult queryDeductResult(DeductBill)
+}
+
+
+interface com.shuhe.deduct.demo.strategy.IDeductPerformer {
+~ DeductResult doRepay(DeductBill)
+~ DeductResult doQuery(DeductBill)
+}
+class com.shuhe.deduct.demo.strategy.impl.BgwDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+class com.shuhe.deduct.demo.strategy.impl.OfflinePayDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+class com.shuhe.deduct.demo.strategy.impl.PaymentCardDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+
+class com.shuhe.deduct.demo.strategy.impl.CouponDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+com.shuhe.deduct.demo.context.IDeductService -> com.shuhe.deduct.demo.strategy.IDeductPerformer
+com.shuhe.deduct.demo.context.IDeductService <|.. com.shuhe.deduct.demo.context.impl.DeductServiceImpl
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.BgwDeductPerformerImpl
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.OfflinePayDeductPerformerImpl
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.PaymentCardDeductPerformerImpl
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.CouponDeductPerformerImpl
+@enduml

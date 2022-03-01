@@ -1,8 +1,8 @@
 package com.iterlife.xdp.strategy.demo.strategy.impl;
 
-import com.iterlife.xdp.strategy.demo.IDeductPerformer;
 import com.iterlife.xdp.strategy.demo.entity.DeductBill;
 import com.iterlife.xdp.strategy.demo.entity.DeductResult;
+import com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer;
 
 /**
  * @desc:微信扣款类

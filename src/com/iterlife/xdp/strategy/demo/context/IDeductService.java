@@ -9,7 +9,7 @@ import com.iterlife.xdp.strategy.demo.entity.DeductResult;
  * @version: V1.0.0
  * @datetime: 2022/2/27 18:03
  **/
-public interface IDeductContextService {
+public interface IDeductService {
 
     DeductResult doDeducting(DeductBill deductBill);
 
