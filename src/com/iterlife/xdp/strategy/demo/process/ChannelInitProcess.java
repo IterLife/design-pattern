@@ -1,8 +1,8 @@
 package com.iterlife.xdp.strategy.demo.process;
 
-import com.iterlife.xdp.strategy.bizflow.AbstractBizFlowServiceImpl;
-import com.iterlife.xdp.strategy.bizflow.ProcessContext;
-import com.iterlife.xdp.strategy.bizflow.ProcessResult;
+import com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl;
+import com.iterlife.xdp.strategy.demo.bizflow.ProcessContext;
+import com.iterlife.xdp.strategy.demo.bizflow.ProcessResult;
 import com.iterlife.xdp.strategy.demo.entity.DeductBill;
 
 import java.util.List;

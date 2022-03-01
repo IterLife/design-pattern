@@ -1,0 +1,86 @@
+@startuml
+
+abstract class com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl {
+# ProcessResult doProcess(ProcessContext<DeductBill>,DeductBill)
++ void initFacts(ProcessContext<DeductBill>)
++ void preMonitor(DeductBill)
++ void preProcess(DeductBill)
++ {abstract}ProcessResult process(DeductBill)
++ void refreshProcessResult(ProcessResult)
++ void postProcess(DeductBill)
++ void postMonitor(DeductBill)
++ void refreshDeductBill(DeductBill)
++ void refreshFacts(ProcessContext<DeductBill>)
++ void refreshProcessContext(ProcessContext<DeductBill>)
++ {static} ProcessResult createInitProcessResult()
++ {static} ProcessResult createSuccessProcessResult()
++ {static} ProcessResult createErrorProcessResult(String)
++ {static} ProcessResult createPausedProcessResult(String)
+}
+
+class com.iterlife.xdp.strategy.demo.process.ChannelInitProcess {
+- IDeductBillService deductBillService
++ void initFacts(ProcessContext<DeductBill>)
++ ProcessResult process(DeductBill)
+}
+
+class com.iterlife.xdp.strategy.demo.process.ApplyDeductProcess {
+- IDeductService deductService
++ ProcessResult process(DeductBill)
+}
+
+class com.iterlife.xdp.strategy.demo.process.QueryDeductProcess {
+- IDeductService deductService
++ ProcessResult process(DeductBill)
+}
+
+
+interface com.iterlife.xdp.strategy.demo.context.IDeductService {
+~ DeductResult doDeducting(DeductBill)
+~ DeductResult queryDeductResult(DeductBill)
+}
+
+class com.iterlife.xdp.strategy.demo.context.impl.DeductServiceImpl {
+- IDeductPerformer deductPerformer
+- IDeductPerformer getDeductPerformer(String)
++ DeductResult doDeducting(DeductBill)
++ DeductResult queryDeductResult(DeductBill)
+}
+
+
+interface com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer {
+~ DeductResult doRepay(DeductBill)
+~ DeductResult doQuery(DeductBill)
+}
+class com.iterlife.xdp.strategy.demo.strategy.impl.BgwDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+class com.iterlife.xdp.strategy.demo.strategy.impl.OfflinePayDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+class com.iterlife.xdp.strategy.demo.strategy.impl.PaymentCardDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+
+class com.iterlife.xdp.strategy.demo.strategy.impl.CouponDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl -> com.iterlife.xdp.strategy.demo.context.IDeductService
+com.iterlife.xdp.strategy.demo.context.IDeductService -> com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer
+com.iterlife.xdp.strategy.demo.context.IDeductService <|.. com.iterlife.xdp.strategy.demo.context.impl.DeductServiceImpl
+com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer <|.. com.iterlife.xdp.strategy.demo.strategy.impl.BgwDeductPerformerImpl
+com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl <|-- com.iterlife.xdp.strategy.demo.process.ChannelInitProcess
+com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer <|.. com.iterlife.xdp.strategy.demo.strategy.impl.OfflinePayDeductPerformerImpl
+com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer <|.. com.iterlife.xdp.strategy.demo.strategy.impl.PaymentCardDeductPerformerImpl
+com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl <|-- com.iterlife.xdp.strategy.demo.process.QueryDeductProcess
+com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer <|.. com.iterlife.xdp.strategy.demo.strategy.impl.CouponDeductPerformerImpl
+com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl <|-- com.iterlife.xdp.strategy.demo.process.ApplyDeductProcess
+@enduml

@@ -1,9 +1,10 @@
 package com.iterlife.xdp.strategy.demo.context.impl;
 
-import com.iterlife.xdp.strategy.demo.IDeductContextService;
-import com.iterlife.xdp.strategy.demo.IDeductPerformer;
+import com.iterlife.xdp.strategy.demo.context.IDeductService;
 import com.iterlife.xdp.strategy.demo.entity.DeductBill;
 import com.iterlife.xdp.strategy.demo.entity.DeductResult;
+import com.iterlife.xdp.strategy.demo.strategy.IDeductPerformer;
+import com.iterlife.xdp.strategy.demo.strategy.impl.*;
 
 /**
  * @desc:
@@ -12,7 +13,7 @@ import com.iterlife.xdp.strategy.demo.entity.DeductResult;
  * @datetime: 2022/2/27 18:07
  **/
 //@Service
-public class DeductContextServiceImpl implements IDeductContextService {
+public class DeductServiceImpl implements IDeductService {
 
     //@Autowired
     private BgwDeductPerformerImpl bgwDeductPerformer;
@@ -26,7 +27,7 @@ public class DeductContextServiceImpl implements IDeductContextService {
     private PaymentCardDeductPerformerImpl paymentCardDeductPerformer;
 
 
-    private IDeductPerformer fetchDeductChannel(String payChannel) {
+    private IDeductPerformer getDeductPerformer(String payChannel) {
         switch (payChannel) {
             case "DOCKING":
                 return this.bgwDeductPerformer;

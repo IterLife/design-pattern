@@ -1,8 +1,8 @@
 package com.iterlife.xdp.strategy.demo.process;
 
-import com.iterlife.xdp.strategy.bizflow.AbstractBizFlowServiceImpl;
-import com.iterlife.xdp.strategy.bizflow.ProcessResult;
-import com.iterlife.xdp.strategy.demo.IDeductContextService;
+import com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl;
+import com.iterlife.xdp.strategy.demo.bizflow.ProcessResult;
+import com.iterlife.xdp.strategy.demo.context.IDeductService;
 import com.iterlife.xdp.strategy.demo.entity.DeductBill;
 import com.iterlife.xdp.strategy.demo.entity.DeductResult;
 
@@ -15,7 +15,7 @@ import com.iterlife.xdp.strategy.demo.entity.DeductResult;
 public class ApplyDeductProcess extends AbstractBizFlowServiceImpl {
 
     //@Autowired
-    private IDeductContextService deductService;
+    private IDeductService deductService;
 
     /**
      * 还款业务通用入口

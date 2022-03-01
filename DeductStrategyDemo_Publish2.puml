@@ -1,0 +1,86 @@
+@startuml
+
+abstract class com.shuhe.deduct.demo.bizflow.AbstractBizFlowServiceImpl {
+# ProcessResult doProcess(ProcessContext<DeductBill>,DeductBill)
++ void initFacts(ProcessContext<DeductBill>)
++ void preMonitor(DeductBill)
++ void preProcess(DeductBill)
++ {abstract}ProcessResult process(DeductBill)
++ void refreshProcessResult(ProcessResult)
++ void postProcess(DeductBill)
++ void postMonitor(DeductBill)
++ void refreshDeductBill(DeductBill)
++ void refreshFacts(ProcessContext<DeductBill>)
++ void refreshProcessContext(ProcessContext<DeductBill>)
++ {static} ProcessResult createInitProcessResult()
++ {static} ProcessResult createSuccessProcessResult()
++ {static} ProcessResult createErrorProcessResult(String)
++ {static} ProcessResult createPausedProcessResult(String)
+}
+
+class com.shuhe.deduct.demo.process.ChannelInitProcess {
+- IDeductBillService deductBillService
++ void initFacts(ProcessContext<DeductBill>)
++ ProcessResult process(DeductBill)
+}
+
+class com.shuhe.deduct.demo.process.ApplyDeductProcess {
+- IDeductService deductService
++ ProcessResult process(DeductBill)
+}
+
+class com.shuhe.deduct.demo.process.QueryDeductProcess {
+- IDeductService deductService
++ ProcessResult process(DeductBill)
+}
+
+
+interface com.shuhe.deduct.demo.context.IDeductService {
+~ DeductResult doDeducting(DeductBill)
+~ DeductResult queryDeductResult(DeductBill)
+}
+
+class com.shuhe.deduct.demo.context.impl.DeductServiceImpl {
+- IDeductPerformer deductPerformer
+- IDeductPerformer getDeductPerformer(String)
++ DeductResult doDeducting(DeductBill)
++ DeductResult queryDeductResult(DeductBill)
+}
+
+
+interface com.shuhe.deduct.demo.strategy.IDeductPerformer {
+~ DeductResult doRepay(DeductBill)
+~ DeductResult doQuery(DeductBill)
+}
+class com.shuhe.deduct.demo.strategy.impl.BgwDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+class com.shuhe.deduct.demo.strategy.impl.OfflinePayDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+class com.shuhe.deduct.demo.strategy.impl.PaymentCardDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+
+class com.shuhe.deduct.demo.strategy.impl.CouponDeductPerformerImpl {
++ DeductResult doRepay(DeductBill)
++ DeductResult doQuery(DeductBill)
+}
+
+com.shuhe.deduct.demo.bizflow.AbstractBizFlowServiceImpl -> com.shuhe.deduct.demo.context.IDeductService
+com.shuhe.deduct.demo.context.IDeductService -> com.shuhe.deduct.demo.strategy.IDeductPerformer
+com.shuhe.deduct.demo.context.IDeductService <|.. com.shuhe.deduct.demo.context.impl.DeductServiceImpl
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.BgwDeductPerformerImpl
+com.shuhe.deduct.demo.bizflow.AbstractBizFlowServiceImpl <|-- com.shuhe.deduct.demo.process.ChannelInitProcess
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.OfflinePayDeductPerformerImpl
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.PaymentCardDeductPerformerImpl
+com.shuhe.deduct.demo.bizflow.AbstractBizFlowServiceImpl <|-- com.shuhe.deduct.demo.process.QueryDeductProcess
+com.shuhe.deduct.demo.strategy.IDeductPerformer <|.. com.shuhe.deduct.demo.strategy.impl.CouponDeductPerformerImpl
+com.shuhe.deduct.demo.bizflow.AbstractBizFlowServiceImpl <|-- com.shuhe.deduct.demo.process.ApplyDeductProcess
+@enduml
