@@ -4,7 +4,7 @@ package com.iterlife.xdp.composite;
  * @Description:com.iterlife.xdp.composite.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:37:36
+ * @date:2015-7-25 ä¸‹åˆ6:37:36
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
