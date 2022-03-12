@@ -5,8 +5,7 @@ package com.iterlife.xdp.adapter;
  * @Description:com.iterlife.xdp.adapter.Client
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
- * @date:2015-7-25 ÏÂÎç6:37:02
+ * @date:2015-7-25 ä¸‹åˆ6:37:02
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

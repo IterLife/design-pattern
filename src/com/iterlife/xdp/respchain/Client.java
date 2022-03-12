@@ -7,7 +7,6 @@ import java.util.Random;
  * @Description:com.iterlife.xdp.respchain.Client
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 обнГ6:40:04
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

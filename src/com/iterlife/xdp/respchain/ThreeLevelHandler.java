@@ -7,7 +7,6 @@ import java.util.Random;
  * @Description:com.iterlife.xdp.respchain.ThreeLevelHandler
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-8-2 ионГ11:32:16
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

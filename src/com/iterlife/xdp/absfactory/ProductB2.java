@@ -5,8 +5,7 @@ package com.iterlife.xdp.absfactory;
  * @Description:com.iterlife.xdp.absfactory.ProductB2
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
- * @date:2015-7-19 ÏÂÎç7:20:31
+ * @date:2015-7-19 ä¸‹åˆ7:20:31
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

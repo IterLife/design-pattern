@@ -5,13 +5,12 @@ package com.iterlife.xdp.adapter;
  * @Description:com.iterlife.xdp.adapter.Target
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
- * @date:2015-8-1 下午9:50:49
+ * @date:2015-8-1 涓嬪崍9:50:49
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 
-// 目标角色
+// 鐩爣瑙掕壊
 public interface Target {
 
 	public void request();

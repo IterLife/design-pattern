@@ -5,8 +5,7 @@ package com.iterlife.xdp.command;
  * @Description:com.iterlife.xdp.command.Invoker
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
- * @date:2015-8-2 ÏÂÎç3:51:45
+ * @date:2015-8-2 ä¸‹åˆ3:51:45
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
@@ -18,6 +17,6 @@ public class Invoker {
 	}
 
 	public void action() {
-		command.execute();// Ö´ĞĞÃüÁî
+		command.execute();// æ‰§è¡Œå‘½ä»¤
 	}
 }

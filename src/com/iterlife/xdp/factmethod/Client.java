@@ -4,7 +4,6 @@ package com.iterlife.xdp.factmethod;
 /**
  * @Description:com.iterlife.xdp.factmethod.Client
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 обнГ3:00:57
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

@@ -5,8 +5,7 @@ package com.iterlife.xdp.builder;
  * @Description:com.iterlife.xdp.builder.ConcreteAProduct
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
- * @date:2015-7-25 ÉÏÎç10:56:34
+ * @date:2015-7-25 ä¸Šåˆ10:56:34
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
