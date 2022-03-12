@@ -3,12 +3,12 @@ package com.iterlife.xdp.singleton;
 
 /**
  * @Description:com.iterlife.xdp.singleton.LazySingleton
- * ÀÁººµ¥ÀıÄ£Ê½
- * µ¥ÀıÄ£Ê½:È·±£Ä³¸öÀàÖ»ÓĞÒ»¸öÊµÀı£¬¶øÇÒ×ÔĞĞÊµÀı»¯²¢ÏòÕû¸öÏµÍ³Ìá¹©Õâ¸öÊµÀı
- * ÓÅµã:³¤×¤ÄÚ´æ£¬¼õÉÙÏµÍ³ĞÔÄÜ¿ªÏú
- * È·¶¨:Ã»ÓĞ½Ó¿Ú£¬À©Õ¹À§ÄÑ£»Óëµ¥Ò»Ö°ÔğÔ­Ôò³åÍ»
+ * æ‡’æ±‰å•ä¾‹æ¨¡å¼
+ * å•ä¾‹æ¨¡å¼:ç¡®ä¿æŸä¸ªç±»åªæœ‰ä¸€ä¸ªå®ä¾‹ï¼Œè€Œä¸”è‡ªè¡Œå®ä¾‹åŒ–å¹¶å‘æ•´ä¸ªç³»ç»Ÿæä¾›è¿™ä¸ªå®ä¾‹
+ * ä¼˜ç‚¹:é•¿é©»å†…å­˜ï¼Œå‡å°‘ç³»ç»Ÿæ€§èƒ½å¼€é”€
+ * ç¡®å®š:æ²¡æœ‰æ¥å£ï¼Œæ‰©å±•å›°éš¾ï¼›ä¸å•ä¸€èŒè´£åŸåˆ™å†²çª
  * @author:Lu Jie
- * @date:2015-7-19 ÏÂÎç2:06:25
+ * @date:2015-7-19 ä¸‹åˆ2:06:25
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
@@ -17,12 +17,12 @@ public class LazySingleton {
 	private static LazySingleton	singleton	= null;
 
 	private LazySingleton() {
-		// ÆÁ±Îpublic Singleton()¹¹Ôì·½·¨
-		// ¿ÉÒÔ½«µ±Ç°SingletonÀàÉèÖÃÎªabstract,ÔòÆä²»¿É±»ÊµÀı»¯
+		// å±è”½public Singleton()æ„é€ æ–¹æ³•
+		// å¯ä»¥å°†å½“å‰Singletonç±»è®¾ç½®ä¸ºabstract,åˆ™å…¶ä¸å¯è¢«å®ä¾‹åŒ–
 	}
 
 	/**
-	 * ²¢·¢Çé¿öÏÂ´æÔÚÎÊÌâ,Í¨¹ı¶Ô·½·¨»òÕß³ÌĞò¿éÌí¼Ósynchronized¹Ø¼ü×Ö½â¾ö
+	 * å¹¶å‘æƒ…å†µä¸‹å­˜åœ¨é—®é¢˜,é€šè¿‡å¯¹æ–¹æ³•æˆ–è€…ç¨‹åºå—æ·»åŠ synchronizedå…³é”®å­—è§£å†³
 	 **/
 	public static LazySingleton getInstance() {
 		if (singleton == null) {

@@ -3,4 +3,4 @@ bin/*
 .project
 /.settings
 *.class
-iterlife-apollo.iml
+*.iml

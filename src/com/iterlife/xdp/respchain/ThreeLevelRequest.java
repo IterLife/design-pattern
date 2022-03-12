@@ -5,7 +5,7 @@ package com.iterlife.xdp.respchain;
  * @Description:com.iterlife.xdp.respchain.ThreeLevelRequest
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç10:50:59
+ * @date:2015-8-2 ä¸Šåˆ10:50:59
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

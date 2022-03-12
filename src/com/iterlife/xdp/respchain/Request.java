@@ -5,13 +5,13 @@ package com.iterlife.xdp.respchain;
  * @Description:com.iterlife.xdp.respchain.Request
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç10:41:38
+ * @date:2015-8-2 ä¸Šåˆ10:41:38
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 
 public abstract class Request {
-	// ¶¨ÒåÎªabstractÀàµÄÖ÷ÒªÄ¿µÄÊÇÎª²»±»ÊµÀı»¯
+	// å®šä¹‰ä¸ºabstractç±»çš„ä¸»è¦ç›®çš„æ˜¯ä¸ºä¸è¢«å®ä¾‹åŒ–
 	private HandlerLevelEnum	handlerLevelEnum;
 
 	/**

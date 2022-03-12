@@ -3,16 +3,16 @@ package com.iterlife.xdp.singleton;
 
 /**
  * @Description:com.iterlife.xdp.singleton.HungrySingleton
- * 饿汉单例模式
+ * 楗挎眽鍗曚緥妯″紡
  * @author:Lu Jie
- * @date:2015-7-19 下午2:34:10
+ * @date:2015-7-19 涓嬪崍2:34:10
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public class HungrySingleton {
 	public static final HungrySingleton	singleton	= new HungrySingleton();
 
-	// 限制产生多个对象
+	// 闄愬埗浜х敓澶氫釜瀵硅薄
 	private HungrySingleton() {
 
 	}

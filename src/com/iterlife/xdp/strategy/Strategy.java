@@ -2,11 +2,11 @@ package com.iterlife.xdp.strategy;
 
 /**
  * @Description:com.iterlife.xdp.strategy.Strategy
- * ²ßÂÔÄ£Ê½:¶¨ÒåÒ»×éËã·¨£¬½«Ã¿¸öËã·¨¶¼·â×°ÆðÀ´£¬²¢ÇÒÊ¹ËûÃÇÖ®¼ä¿ÉÒÔ»¥ÏàÌæ»»
- * Ëã·¨¿ÉÒÔ×ÔÓÉÇÐ»»£¬±ÜÃâÊ¹ÓÃ¶àÖØÌõ¼þÅÐ¶Ï£¬À©Õ¹ÐÔÁ¼ºÃ
- * ²ßÂÔÀàÊýÁ¿Ôö¶à£¬ËùÓÐµÄ²ßÂÔÀà¶¼ÐèÒªÏòÍâ±©Â©
+ * ç­–ç•¥æ¨¡å¼:å®šä¹‰ä¸€ç»„ç®—æ³•ï¼Œå°†æ¯ä¸ªç®—æ³•éƒ½å°è£…èµ·æ¥ï¼Œå¹¶ä¸”ä½¿ä»–ä»¬ä¹‹é—´å¯ä»¥äº’ç›¸æ›¿æ¢
+ * ç®—æ³•å¯ä»¥è‡ªç”±åˆ‡æ¢ï¼Œé¿å…ä½¿ç”¨å¤šé‡æ¡ä»¶åˆ¤æ–­ï¼Œæ‰©å±•æ€§è‰¯å¥½
+ * ç­–ç•¥ç±»æ•°é‡å¢žå¤šï¼Œæ‰€æœ‰çš„ç­–ç•¥ç±»éƒ½éœ€è¦å‘å¤–æš´æ¼
  * @author:Lu Jie
- * @date:2015-7-27 ÏÂÎç8:37:20
+ * @date:2015-7-27 ä¸‹åˆ8:37:20
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

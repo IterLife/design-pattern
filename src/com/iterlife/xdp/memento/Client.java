@@ -4,7 +4,7 @@ package com.iterlife.xdp.memento;
  * @Description:com.iterlife.xdp.memento.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:38:36
+ * @date:2015-7-25 ä¸‹åˆ6:38:36
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

@@ -5,7 +5,7 @@ package com.iterlife.xdp.proxy;
  * @Description:com.iterlife.xdp.proxy.StaticProxy
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç12:49:49
+ * @date:2015-7-25 ä¸‹åˆ12:49:49
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

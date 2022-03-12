@@ -7,7 +7,7 @@ import java.util.Random;
  * @Description:com.iterlife.xdp.respchain.TwoLevelHandler
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç11:28:54
+ * @date:2015-8-2 ä¸Šåˆ11:28:54
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
@@ -26,15 +26,15 @@ public class TwoLevelHandler extends Handler {
 		if (this.getHandLevelEnum().canHandler(request.getHandlerLevelEnum())) {
 			Random random = new Random();
 			Response resonse = response[random.nextInt(2)];
-			System.out.println("×öÒ»Ğ©¶ş¼¶´¦Àí¼¶±ğ×öµÄÊÂÇé¡­¡­");
+			System.out.println("åšä¸€äº›äºŒçº§å¤„ç†çº§åˆ«åšçš„äº‹æƒ…â€¦â€¦");
 			System.out.println("[" + twoLeverHandler.getLevelDesc() + "]:" + resonse.getResponseDesc());
 			return resonse;
 		}
 		if (this.getNextHandler() == null) {
-			System.out.println("¶ş¼¶´¦Àí¼¶±ğÎŞ·¨´¦Àí£¬ÕÒ²»µ½ÏÂÒ»´¦Àí¼¶±ğ¡£");
+			System.out.println("äºŒçº§å¤„ç†çº§åˆ«æ— æ³•å¤„ç†ï¼Œæ‰¾ä¸åˆ°ä¸‹ä¸€å¤„ç†çº§åˆ«ã€‚");
 			return new NullResponse();
 		}
-		System.out.println("¶ş¼¶´¦Àí¼¶±ğÎŞ·¨´¦Àí£¬Ìá½»µ½ÏÂÒ»´¦Àí¼¶±ğ¡£");
+		System.out.println("äºŒçº§å¤„ç†çº§åˆ«æ— æ³•å¤„ç†ï¼Œæäº¤åˆ°ä¸‹ä¸€å¤„ç†çº§åˆ«ã€‚");
 		return this.getNextHandler().handler(request);
 	}
 }

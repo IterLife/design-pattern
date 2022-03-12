@@ -6,22 +6,22 @@ import java.lang.reflect.Method;
 
 /**
  * @Description:com.iterlife.xdp.proxy.MyInvocationHandler
- * ¶¯Ì¬´úÀí
+ * åŠ¨æ€ä»£ç†
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç3:48:49
+ * @date:2015-7-25 ä¸‹åˆ3:48:49
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public class MyInvocationHandler implements InvocationHandler {
 
-	// ±»´úÀí¶ÔÏó
+	// è¢«ä»£ç†å¯¹è±¡
 	private Object	target	= null;
 
 	public MyInvocationHandler(Object object) {
 		this.target = object;
 	}
 
-	// ´úÀí·½·¨
+	// ä»£ç†æ–¹æ³•
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		System.out.println("MyInvocationHandler.invoke()");
 		return method.invoke(this.target, args);

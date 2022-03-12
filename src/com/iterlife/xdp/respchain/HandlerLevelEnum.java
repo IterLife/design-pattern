@@ -5,14 +5,14 @@ package com.iterlife.xdp.respchain;
  * @Description:com.iterlife.xdp.respchain.HandlerLevelEnum
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç10:33:19
+ * @date:2015-8-2 ä¸Šåˆ10:33:19
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public enum HandlerLevelEnum {
 
-	// Éæ¼°Ë¼Â·:ÏòÉÏ¼¶Ìá½»ÉóÅúÖÆ¶È£¬¼¶±ğÔ½¸ß£¬´¦ÀíÈ¨ÏŞÔ½´ó
-	ZERO(0, "Áã¼¶´¦Àí¼¶±ğ"), ONE(1, "Ò»¼¶´¦Àí¼¶±ğ"), TWO(2, "¶ş¼¶´¦Àí¼¶±ğ"), THREE(3, "Èı¼¶´¦Àí¼¶±ğ"), FOUR(4, "ËÄ¼¶´¦Àí¼¶±ğ"), FIVE(5, "Îå¼¶´¦Àí¼¶±ğ");
+	// æ¶‰åŠæ€è·¯:å‘ä¸Šçº§æäº¤å®¡æ‰¹åˆ¶åº¦ï¼Œçº§åˆ«è¶Šé«˜ï¼Œå¤„ç†æƒé™è¶Šå¤§
+	ZERO(0, "é›¶çº§å¤„ç†çº§åˆ«"), ONE(1, "ä¸€çº§å¤„ç†çº§åˆ«"), TWO(2, "äºŒçº§å¤„ç†çº§åˆ«"), THREE(3, "ä¸‰çº§å¤„ç†çº§åˆ«"), FOUR(4, "å››çº§å¤„ç†çº§åˆ«"), FIVE(5, "äº”çº§å¤„ç†çº§åˆ«");
 	private int		levelCode;
 	private String	levelDesc;
 

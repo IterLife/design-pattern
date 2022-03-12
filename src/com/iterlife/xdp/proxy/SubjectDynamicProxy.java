@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationHandler;
  * @Description:com.iterlife.xdp.proxy.SubjectDynamicProxy
  * 
  * @author:Lu Jie
- * @date:2015-7-25 œ¬ŒÁ4:19:12
+ * @date:2015-7-25 ‰∏ãÂçà4:19:12
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
