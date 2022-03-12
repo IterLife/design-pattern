@@ -3,15 +3,15 @@ package com.iterlife.xdp.adapter;
 
 /**
  * @Description:com.iterlife.xdp.adapter.Adapter
- * ÊÊÅäÆ÷Ä£Ê½:½«Ò»¸öÀàµÄ½Ó¿Ú±ä»»³É¿Í»§¶ËËùÆÚ´ıµÄÁíÒ»¸ö½Ó¿Ú£¬´Ó¶øÊ¹Ô­±¾Òò½Ó¿Ú²»Æ¥Åä¶øÎŞ·¨ÔÚÒ»Æğ¹¤×÷µÄÁ½¸öÀàÄÜ¹»ÔÚÒ»Æğ¹¤×÷¡£
+ * é€‚é…å™¨æ¨¡å¼:å°†ä¸€ä¸ªç±»çš„æ¥å£å˜æ¢æˆå®¢æˆ·ç«¯æ‰€æœŸå¾…çš„å¦ä¸€ä¸ªæ¥å£ï¼Œä»è€Œä½¿åŸæœ¬å› æ¥å£ä¸åŒ¹é…è€Œæ— æ³•åœ¨ä¸€èµ·å·¥ä½œçš„ä¸¤ä¸ªç±»èƒ½å¤Ÿåœ¨ä¸€èµ·å·¥ä½œã€‚
  *
  * @author:Lu Jie
- * @date:2015-8-1 ÏÂÎç9:56:06
+ * @date:2015-8-1 ä¸‹åˆ9:56:06
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 
-// ÊÊÅäÆ÷½ÇÉ«
+// é€‚é…å™¨è§’è‰²
 public class Adapter extends Adaptee implements Target {
 
 	public void request() {

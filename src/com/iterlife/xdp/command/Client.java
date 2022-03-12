@@ -5,16 +5,16 @@ package com.iterlife.xdp.command;
  * @Description:com.iterlife.xdp.command.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:37:27
+ * @date:2015-7-25 ä¸‹åˆ6:37:27
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public class Client {
 
 	public static void main(String[] args) {
-		Invoker invoker = new Invoker();// ¶¨Òå½Ó¿ÚÈË
-		Receiver receiverA = new ConcreteAReceiver();// ¶¨Òå½ÓÊÕÕßA
-		Receiver receiverB = new ConcreteBReceiver();// ¶¨Òå½ÓÊÕÕßB
+		Invoker invoker = new Invoker();// å®šä¹‰æ¥å£äºº
+		Receiver receiverA = new ConcreteAReceiver();// å®šä¹‰æ¥æ”¶è€…A
+		Receiver receiverB = new ConcreteBReceiver();// å®šä¹‰æ¥æ”¶è€…B
 		invoker.setCommand(new ConcreteACommand(receiverA));
 		invoker.action();
 		invoker.setCommand(new ConcreteACommand(receiverB));
