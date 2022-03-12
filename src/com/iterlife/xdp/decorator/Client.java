@@ -5,7 +5,7 @@ package com.iterlife.xdp.decorator;
  * @Description:com.iterlife.xdp.decorator.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:37:44
+ * @date:2015-7-25 ä¸‹åˆ6:37:44
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
