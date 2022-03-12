@@ -3,7 +3,7 @@ package com.iterlife.xdp.observer;
 /**
  * @Description:com.iterlife.xdp.observer.Client
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:38:43
+ * @date:2015-7-25 ä¸‹åˆ6:38:43
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

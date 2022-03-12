@@ -4,13 +4,13 @@ package com.iterlife.xdp.factmethod;
 /**
  * @Description:com.iterlife.xdp.factmethod.ConcreteProductFactory
  * @author:Lu Jie
- * @date:2015-7-19 œ¬ŒÁ2:58:02
+ * @date:2015-7-19 ‰∏ãÂçà2:58:02
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public class ConcreteProductFactory extends AbstarctProductFactory {
 	public ConcreteProductFactory() {
-		System.out.println("initiative ConcreteProductFactory°≠°≠");
+		System.out.println("initiative ConcreteProductFactory‚Ä¶‚Ä¶");
 	}
 
 	@SuppressWarnings("unchecked")

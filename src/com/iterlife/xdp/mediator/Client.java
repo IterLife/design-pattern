@@ -4,7 +4,7 @@ package com.iterlife.xdp.mediator;
  * @Description:com.iterlife.xdp.mediator.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:38:28
+ * @date:2015-7-25 ä¸‹åˆ6:38:28
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

@@ -6,9 +6,9 @@ import java.util.Random;
 
 /**
  * @Description:com.iterlife.xdp.singleton.ExtSingleton
- * 有上限的扩展单例模式
+ * 鏈変笂闄愮殑鎵╁睍鍗曚緥妯″紡
  * @author:Lu Jie
- * @date:2015-7-19 下午2:22:48
+ * @date:2015-7-19 涓嬪崍2:22:48
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
@@ -28,7 +28,7 @@ public class ExtSingleton {
 	}
 
 	private ExtSingleton(String singletonTag) {
-		System.out.println("生成一个实例，标识:" + singletonTag);
+		System.out.println("鐢熸垚涓�涓疄渚嬶紝鏍囪瘑:" + singletonTag);
 	}
 
 	public static ExtSingleton getExtSingleton() {

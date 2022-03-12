@@ -4,7 +4,7 @@ package com.iterlife.xdp.interpreter;
  * @Description:com.iterlife.xdp.interpreter.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:38:09
+ * @date:2015-7-25 ä¸‹åˆ6:38:09
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

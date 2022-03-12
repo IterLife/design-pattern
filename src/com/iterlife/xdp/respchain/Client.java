@@ -7,7 +7,7 @@ import java.util.Random;
  * @Description:com.iterlife.xdp.respchain.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:40:04
+ * @date:2015-7-25 ä¸‹åˆ6:40:04
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
@@ -19,15 +19,15 @@ public class Client {
 	public static void main(String[] args) {
 		Request request[] = new Request[] { new OneLevelRequest(), new TwoLevelRequest(), new ThreeLevelRequest(), new FourLevelRequest(),
 				new FiveLevelRequest() };
-		Handler dealHandler = new OneLevelHandler();// ÊÜÀí´¦ÀíÇëÇóµÄHandler
+		Handler dealHandler = new OneLevelHandler();// å—ç†å¤„ç†è¯·æ±‚çš„Handler
 		for (int i = 0; i < 100; ++i) {
 			Random random = new Random();
 			int requestIndex = random.nextInt(5);
-			System.out.println("µÚ" + (i+1)+ "´Î·¢ÆğÇëÇó£¬ÇëÇó¼¶±ğ:" + request[requestIndex].getHandlerLevelEnum());
-			System.out.println("½øÈë´¦ÀíÁ÷³Ì¡­¡­");
+			System.out.println("ç¬¬" + (i+1)+ "æ¬¡å‘èµ·è¯·æ±‚ï¼Œè¯·æ±‚çº§åˆ«:" + request[requestIndex].getHandlerLevelEnum());
+			System.out.println("è¿›å…¥å¤„ç†æµç¨‹â€¦â€¦");
 			Response response = dealHandler.handlerRequest(request[requestIndex]);
-			System.out.println("[×îÖÕ´¦Àí½á¹û]:" + response.getResponseDesc());
-			System.out.println("¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­\n\n");
+			System.out.println("[æœ€ç»ˆå¤„ç†ç»“æœ]:" + response.getResponseDesc());
+			System.out.println("â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦\n\n");
 		}
 	}
 }

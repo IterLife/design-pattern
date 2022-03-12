@@ -3,18 +3,18 @@ package com.iterlife.xdp.prototype;
 
 /**
  * @Description:com.iterlife.xdp.prototype.Client
- * Ô­ĞÍÄ£ĞÍ:ÓÃÔ­ĞÍÊµÀıÖ¸¶¨´´½¨¶ÔÏóµÄÖÖÀà£¬²¢ÇÒÍ¨¹ı¿½±´ÕâĞ©Ô­ĞÍ´´½¨ĞÂµÄ¶ÔÏó
- * ĞÔÄÜÓÅÁ¼:ÄÚ´æ¶ş½øÖÆÁ÷¿½±´
- * ÌÓ±Ü¹¹Ôìº¯ÊıµÄÔ¼Êø:Ö±½ÓÄÚ´æ¿½±´£¬²»Ö´ĞĞ¹¹Ôìº¯Êı
+ * åŸå‹æ¨¡å‹:ç”¨åŸå‹å®ä¾‹æŒ‡å®šåˆ›å»ºå¯¹è±¡çš„ç§ç±»ï¼Œå¹¶ä¸”é€šè¿‡æ‹·è´è¿™äº›åŸå‹åˆ›å»ºæ–°çš„å¯¹è±¡
+ * æ€§èƒ½ä¼˜è‰¯:å†…å­˜äºŒè¿›åˆ¶æµæ‹·è´
+ * é€ƒé¿æ„é€ å‡½æ•°çš„çº¦æŸ:ç›´æ¥å†…å­˜æ‹·è´ï¼Œä¸æ‰§è¡Œæ„é€ å‡½æ•°
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç5:12:17
+ * @date:2015-7-25 ä¸‹åˆ5:12:17
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public class Client {
 
 	public static void main(String[] args) {
-		// Ç³¿½±´
+		// æµ…æ‹·è´
 		SProtoType sProtoType1 = new SProtoType("sProtoType1");
 		System.out.println("[sProtoType1]:" + sProtoType1.getNames());
 		SProtoType sProtoType2 = sProtoType1.clone();
@@ -22,7 +22,7 @@ public class Client {
 		System.out.println("[sProtoType1]:" + sProtoType1.getNames());
 		System.out.println("[sProtoType2]:" + sProtoType2.getNames());
 
-		// Éî¿½±´
+		// æ·±æ‹·è´
 		NProtoType nProtoType1 = new NProtoType("nProtoType1");
 		System.out.println("[nProtoType1]:" + nProtoType1.getNames());
 		NProtoType nProtoType2 = nProtoType1.clone();

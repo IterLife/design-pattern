@@ -5,7 +5,7 @@ package com.iterlife.xdp.strategy;
  * @Description:com.iterlife.xdp.strategy.ConcreteStrategy1
  *
  * @author:Lu Jie
- * @date:2015-7-27 ÏÂÎç8:40:59
+ * @date:2015-7-27 ä¸‹åˆ8:40:59
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

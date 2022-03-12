@@ -18,15 +18,15 @@ public class OneLevelHandler extends Handler {
 		if (this.getHandLevelEnum().canHandler(request.getHandlerLevelEnum())) {
 			Random random = new Random();
 			Response resonse = response[random.nextInt(2)];
-			System.out.println("×öÒ»Ğ©Ò»¼¶´¦Àí¼¶±ğ×öµÄÊÂÇé¡­¡­");
+			System.out.println("åšä¸€äº›ä¸€çº§å¤„ç†çº§åˆ«åšçš„äº‹æƒ…â€¦â€¦");
 			System.out.println("[" + oneLeverHandler.getLevelDesc() + "]:" + resonse.getResponseDesc());
 			return resonse;
 		}
 		if (this.getNextHandler() == null) {
-			System.out.println("Ò»¼¶´¦Àí¼¶±ğÎŞ·¨´¦Àí£¬ÕÒ²»µ½ÏÂÒ»´¦Àí¼¶±ğ¡£");
+			System.out.println("ä¸€çº§å¤„ç†çº§åˆ«æ— æ³•å¤„ç†ï¼Œæ‰¾ä¸åˆ°ä¸‹ä¸€å¤„ç†çº§åˆ«ã€‚");
 			return new NullResponse();
 		}
-		System.out.println("Ò»¼¶´¦Àí¼¶±ğÎŞ·¨´¦Àí£¬Ìá½»µ½ÏÂÒ»´¦Àí¼¶±ğ¡£");
+		System.out.println("ä¸€çº§å¤„ç†çº§åˆ«æ— æ³•å¤„ç†ï¼Œæäº¤åˆ°ä¸‹ä¸€å¤„ç†çº§åˆ«ã€‚");
 		return this.getNextHandler().handler(request);
 	}
 }

@@ -4,7 +4,7 @@ package com.iterlife.xdp.visitor;
  * @Description:com.iterlife.xdp.visitor.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:40:23
+ * @date:2015-7-25 ä¸‹åˆ6:40:23
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

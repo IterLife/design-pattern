@@ -5,7 +5,7 @@ package com.iterlife.xdp.strategy;
  * @Description:com.iterlife.xdp.strategy.ApplicationContext
  *
  * @author:Lu Jie
- * @date:2015-7-27 ÏÂÎç9:16:35
+ * @date:2015-7-27 ä¸‹åˆ9:16:35
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

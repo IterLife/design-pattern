@@ -4,7 +4,7 @@ package com.iterlife.xdp.facade;
  * @Description:com.iterlife.xdp.facade.SystemB
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÏÂÎç4:28:43
+ * @date:2015-8-2 ä¸‹åˆ4:28:43
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

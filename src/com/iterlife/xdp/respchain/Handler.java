@@ -3,23 +3,23 @@ package com.iterlife.xdp.respchain;
 
 /**
  * @Description:com.iterlife.xdp.respchain.Handler
- * ÔğÈÎÁ´Ä£Ê½:Ê¹¶à¸ö¶ÔÏó¶¼ÓĞ»ú»á´¦ÀíÇëÇó£¬´Ó¶ø±ÜÃâÁËÇëÇóµÄ·¢ËÍÕßºÍ½ÓÊÕÕßÖ®¼äµÄñîºÏ¹ØÏµ£¬½«½ÓÊÕÕßÁ¬³ÉÒ»¸öÁ´£¬²¢ÑØ×Å¸ÃÁ´´«ËÍ¸ÃÇëÇó£¬Ö±µ½ÓĞ¶ÔÏó´¦ÀíËüÎ»ÖÃ
- * ½«ÇëÇóºÍ´¦Àí·Ö¿ª£¬ÀàËÆµİ¹éµ¼ÖÂĞÔÄÜÎÊÌâºÍµ÷ÊÔ²»±ã
+ * è´£ä»»é“¾æ¨¡å¼:ä½¿å¤šä¸ªå¯¹è±¡éƒ½æœ‰æœºä¼šå¤„ç†è¯·æ±‚ï¼Œä»è€Œé¿å…äº†è¯·æ±‚çš„å‘é€è€…å’Œæ¥æ”¶è€…ä¹‹é—´çš„è€¦åˆå…³ç³»ï¼Œå°†æ¥æ”¶è€…è¿æˆä¸€ä¸ªé“¾ï¼Œå¹¶æ²¿ç€è¯¥é“¾ä¼ é€è¯¥è¯·æ±‚ï¼Œç›´åˆ°æœ‰å¯¹è±¡å¤„ç†å®ƒä½ç½®
+ * å°†è¯·æ±‚å’Œå¤„ç†åˆ†å¼€ï¼Œç±»ä¼¼é€’å½’å¯¼è‡´æ€§èƒ½é—®é¢˜å’Œè°ƒè¯•ä¸ä¾¿
  * 
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç10:30:39
+ * @date:2015-8-2 ä¸Šåˆ10:30:39
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 
-// ³éÏó´¦ÀíÕß
+// æŠ½è±¡å¤„ç†è€…
 public abstract class Handler {
 
-	private Handler	nextHandler;	// ¶¨ÒåÏÂÒ»¸ö´¦ÀíÆ÷
+	private Handler	nextHandler;	// å®šä¹‰ä¸‹ä¸€ä¸ªå¤„ç†å™¨
 
-	public abstract HandlerLevelEnum getHandLevelEnum();// ¶¨ÒåÄÜ´¦Àí½»Ò×´¦ÀíµÄ×îĞ¡¼¶±ğ
+	public abstract HandlerLevelEnum getHandLevelEnum();// å®šä¹‰èƒ½å¤„ç†äº¤æ˜“å¤„ç†çš„æœ€å°çº§åˆ«
 
-	public abstract Response handler(Request request);// ¶¨Òå´¦Àí·½·¨
+	public abstract Response handler(Request request);// å®šä¹‰å¤„ç†æ–¹æ³•
 
 	public static Response[]	response	= new Response[] { new YesResponse(), new NoResponse() };
 

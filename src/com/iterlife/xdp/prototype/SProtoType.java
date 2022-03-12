@@ -8,7 +8,7 @@ import java.util.List;
  * @Description:com.iterlife.xdp.prototype.SProtoType
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç5:08:05
+ * @date:2015-7-25 ä¸‹åˆ5:08:05
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

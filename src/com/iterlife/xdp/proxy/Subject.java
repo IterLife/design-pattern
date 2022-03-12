@@ -5,7 +5,7 @@ package com.iterlife.xdp.proxy;
  * @Description:com.iterlife.xdp.proxy.Subject
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç12:47:52
+ * @date:2015-7-25 ä¸‹åˆ12:47:52
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

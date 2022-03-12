@@ -5,12 +5,12 @@ package com.iterlife.xdp.respchain;
  * @Description:com.iterlife.xdp.respchain.NullResponse
  *
  * @author:Lu Jie
- * @date:2015-8-2 上午11:07:51
+ * @date:2015-8-2 涓婂崍11:07:51
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
 public class NullResponse extends Response {
 	public NullResponse() {
-		super.setResponseDesc("找不到相应级别的处理对象");
+		super.setResponseDesc("鎵句笉鍒扮浉搴旂骇鍒殑澶勭悊瀵硅薄");
 	}
 }

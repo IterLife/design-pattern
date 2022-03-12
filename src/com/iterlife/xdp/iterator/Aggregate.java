@@ -5,11 +5,11 @@ package com.iterlife.xdp.iterator;
  * @Description:com.iterlife.xdp.iterator.Aggregate
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç9:26:53
+ * @date:2015-8-2 ä¸Šåˆ9:26:53
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
-// ³éÏóÈİÆ÷
+// æŠ½è±¡å®¹å™¨
 public interface Aggregate {
 
 	public void add(Object obj);
