@@ -6,7 +6,6 @@ package com.iterlife.xdp.strategy;
  * 算法可以自由切换，避免使用多重条件判断，扩展性良好
  * 策略类数量增多，所有的策略类都需要向外暴漏
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-27 下午8:37:20
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

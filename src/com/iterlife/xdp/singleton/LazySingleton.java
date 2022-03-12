@@ -8,7 +8,6 @@ package com.iterlife.xdp.singleton;
  * 优点:长驻内存，减少系统性能开销
  * 确定:没有接口，扩展困难；与单一职责原则冲突
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 下午2:06:25
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

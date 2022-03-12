@@ -5,7 +5,6 @@ package com.iterlife.xdp.builder;
  * @Description:com.iterlife.xdp.builder.Product
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 ионГ10:53:53
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

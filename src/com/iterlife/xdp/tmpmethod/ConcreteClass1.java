@@ -5,7 +5,6 @@ package com.iterlife.xdp.tmpmethod;
  * @Description:com.iterlife.xdp.tmpmethod.ConcreteClass1
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 ионГ10:12:55
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

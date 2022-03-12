@@ -7,7 +7,6 @@ package com.iterlife.xdp.respchain;
  * 将请求和处理分开，类似递归导致性能问题和调试不便
  * 
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-8-2 上午10:30:39
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

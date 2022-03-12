@@ -10,7 +10,6 @@ package com.iterlife.xdp.facade;
  * 
  * 门面对象只是提供访问子系统的接口，而不应该包含业务逻辑
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-8-2 下午4:29:43
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

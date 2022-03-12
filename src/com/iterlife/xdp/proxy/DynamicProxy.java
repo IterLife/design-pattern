@@ -8,7 +8,6 @@ import java.lang.reflect.Proxy;
  * @Description:com.iterlife.xdp.proxy.DynamicProxy
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 обнГ3:57:22
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

@@ -9,7 +9,6 @@ package com.iterlife.xdp.absfactory;
  * 缺点:产品族扩展困难
  * 
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 下午7:21:41
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

@@ -7,7 +7,6 @@ package com.iterlife.xdp.prototype;
  * 性能优良:内存二进制流拷贝
  * 逃避构造函数的约束:直接内存拷贝，不执行构造函数
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-25 下午5:12:17
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

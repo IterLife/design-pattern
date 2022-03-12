@@ -5,7 +5,6 @@ package com.iterlife.xdp.strategy;
  * @Description:com.iterlife.xdp.strategy.Calculator
  *
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-27 обнГ9:12:42
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

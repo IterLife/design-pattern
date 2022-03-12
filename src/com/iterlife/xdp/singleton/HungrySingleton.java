@@ -5,7 +5,6 @@ package com.iterlife.xdp.singleton;
  * @Description:com.iterlife.xdp.singleton.HungrySingleton
  * 饿汉单例模式
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-7-19 下午2:34:10
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403

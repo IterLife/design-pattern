@@ -5,7 +5,6 @@ package com.iterlife.xdp.iterator;
  * @Description:com.iterlife.xdp.iterator.Iterator
  * 迭代器模式:提供一种方法访问一个容器对象的各个元素，而不需要暴漏该对象的内部实现细节
  * @author:Lu Jie
- * @E-Mail:lujie0403@163.com
  * @date:2015-8-2 上午9:14:44
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
