@@ -4,7 +4,7 @@ package com.iterlife.xdp.facade;
  * @Description:com.iterlife.xdp.facade.Client
  *
  * @author:Lu Jie
- * @date:2015-7-25 ÏÂÎç6:37:52
+ * @date:2015-7-25 ä¸‹åˆ6:37:52
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

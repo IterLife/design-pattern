@@ -4,7 +4,7 @@ package com.iterlife.xdp.factmethod;
 /**
  * @Description:com.iterlife.xdp.factmethod.ConcreteProcuctBFactory
  * @author:Lu Jie
- * @date:2015-7-19 ÏÂÎç3:20:55
+ * @date:2015-7-19 ä¸‹åˆ3:20:55
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

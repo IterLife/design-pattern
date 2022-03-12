@@ -3,9 +3,9 @@ package com.iterlife.xdp.factmethod;
 
 /**
  * @Description:com.iterlife.xdp.factmethod.SimpleProductFactory
- * ¼òµ¥¹¤³§Ä£Ê½ ,Ò²½Ğ¾²Ì¬¹¤³§Ä£Ê½
+ * ç®€å•å·¥å‚æ¨¡å¼ ,ä¹Ÿå«é™æ€å·¥å‚æ¨¡å¼
  * @author:Lu Jie
- * @date:2015-7-19 ÏÂÎç3:11:42
+ * @date:2015-7-19 ä¸‹åˆ3:11:42
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */

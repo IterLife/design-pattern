@@ -8,9 +8,9 @@ import com.iterlife.xdp.singleton.LazySingleton;
 
 /**
  * @Description:com.iterlife.xdp.factmethod.SingletonFactory
- * µ¥Àı¹¤³§Ä£Ê½
+ * å•ä¾‹å·¥å‚æ¨¡å¼
  * @author:Lu Jie
- * @date:2015-7-19 ÏÂÎç3:26:35
+ * @date:2015-7-19 ä¸‹åˆ3:26:35
  * @version:1.0.0
  * @copyright:https://github.com/LuJie0403
  */
@@ -19,11 +19,11 @@ public class SingletonFactory {
 	{
 		try {
 			Class<?> clazz = Class.forName(LazySingleton.class.getName());
-			// »ñÈ¡ÎŞ²Î¹¹Ôìº¯Êı
+			// è·å–æ— å‚æ„é€ å‡½æ•°
 			Constructor<?> constructor = clazz.getDeclaredConstructor();
-			// ÎŞ²Î¹¹Ôìº¯ÊıÊÇprivateµÄ£¬ÉèÖÃÎª¿ÉÒÔ·ÃÎÊµÄ
+			// æ— å‚æ„é€ å‡½æ•°æ˜¯privateçš„ï¼Œè®¾ç½®ä¸ºå¯ä»¥è®¿é—®çš„
 			constructor.setAccessible(true);
-			// ²úÉúÒ»¸öÊµÀı¶ÔÏó
+			// äº§ç”Ÿä¸€ä¸ªå®ä¾‹å¯¹è±¡
 			singleton = (LazySingleton) constructor.newInstance();
 		} catch (ClassNotFoundException e) {
 		} catch (SecurityException e) {

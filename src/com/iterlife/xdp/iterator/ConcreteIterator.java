@@ -7,7 +7,7 @@ import java.util.Vector;
  * @Description:com.iterlife.xdp.iterator.ConcreteIterator
  *
  * @author:Lu Jie
- * @date:2015-8-2 ÉÏÎç9:17:30
+ * @date:2015-8-2 ä¸Šåˆ9:17:30
  * @version:1.0.0
  * @param <E>
  * @copyright:https://github.com/LuJie0403
