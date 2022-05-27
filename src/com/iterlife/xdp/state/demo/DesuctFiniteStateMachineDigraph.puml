@@ -1,0 +1,23 @@
+digraph finite_state_machine {
+	rankdir=LR;
+	size="10,5"
+	bgcolor="#F9F7ED"
+	color="#CC99FF"
+	node [shape = doublecircle,style=filled,color="#CC99FF"];开始 结束;
+	node [shape = circle,style=filled,color="#FFE6CC"];
+
+
+	
+	开始 -> 初始 [ label = "拆分扣款单（最小扣款单位）" ]
+	初始 -> 待扣款1 [ label = "选择扣款单" ]
+	初始 -> 待扣款n [ label = "选择扣款单" ]
+	待扣款1 -> 扣款中1 [ label = "发送扣款渠道执行" ]
+	待扣款n -> 扣款中n [ label = "发送扣款渠道执行" ]
+	扣款中1 -> 扣款中1 [ label = "扣款未明" ]
+	扣款中1 -> 扣款终态 [ label = "扣款终态" ]
+	扣款中n -> 扣款终态 [ label = "扣款终态" ]
+	扣款终态 -> 扣款终态 [ label = "等待所有扣款终态" ]
+	扣款终态 -> 入账终态 [ label = "入账/直接流转" ]
+	入账终态 -> 结束 [ label = "后置逻辑[略]" ]
+
+}
