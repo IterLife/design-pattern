@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundColor #F9F7ED
 abstract class com.iterlife.xdp.strategy.demo.bizflow.AbstractBizFlowServiceImpl {
 # ProcessResult doProcess(ProcessContext<DeductBill>,DeductBill)
 + void initFacts(ProcessContext<DeductBill>)
